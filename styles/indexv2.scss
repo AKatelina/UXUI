@@ -8,10 +8,11 @@
   .top {
     padding-top: 15px;
     padding-bottom: 15px;
-    position: relative;
+    position: fixed;
+    top: 0;
     width: 100%;
     color: black;
-    background-color: $color_bg-dark;
+    background-color: white;
 
     .logo {
       margin-right: 15px;
@@ -96,7 +97,7 @@
 
   .content {
     margin-bottom: 15px;
-    padding-top: 10px;
+    padding-top: 83px;
     padding-bottom: 69px;
 
     .banner {
@@ -185,7 +186,7 @@
       }
 
       img {
-        padding: 15px;
+        padding: 10px 10px 15px 10px;
         height: 54px;
         cursor: pointer;
       }
