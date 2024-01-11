@@ -125,6 +125,9 @@
   }
 }
 @media (max-width: 660px) {
+  .tmpl1-wrap .top {
+    padding-bottom: 10px;
+  }
   .tmpl1-wrap .top .btn_choose-catalog,
   .tmpl1-wrap .top .icon {
     display: none;
