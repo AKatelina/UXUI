@@ -66,6 +66,15 @@
   display: block;
   cursor: pointer;
 }
+.tmpl1-wrap .content {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.tmpl1-wrap .content .banner {
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
 .tmpl1-wrap .max-w {
   margin: 0 auto;
   padding-right: 15px;

@@ -79,6 +79,17 @@
     }
   }
 
+  .content {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    .banner {
+      border-radius: 10px;
+      border: 1px solid black;
+      overflow: hidden;
+    }
+  }
+
   .max-w {
     margin: 0 auto;
     padding-right: 15px;
