@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7bb3dd3-d5e7-4fff-a29e-bc164d7e5a5e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="2aSiwCwKyqm3nU1Xy7uJj4OvP4a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7bb3dd3-d5e7-4fff-a29e-bc164d7e5a5e" name="Default Changelist" comment="" />
+      <created>1704318617050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704318617050</updated>
+      <workItem from="1704318618830" duration="3100000" />
+      <workItem from="1704364884889" duration="3868000" />
+      <workItem from="1704432865130" duration="91000" />
+      <workItem from="1704491507077" duration="3147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="322" y="164" key="EditFileWatcherDialog" timestamp="1704319752825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="164" key="EditFileWatcherDialog/0.0.1366.728/1366.-547.1920.1040@0.0.1366.728" timestamp="1704319752825" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1704319628538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-547.1920.1040@0.0.1366.728" timestamp="1704319628538" />
+  </component>
+</project>

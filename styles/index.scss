@@ -1,0 +1,160 @@
+@import 'settings';
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap');
+
+
+.tmpl1-wrap {
+  font-family: Roboto, sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+
+  .above-top {
+    display: none;
+  }
+
+  .top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: white;
+    background-color: $color_bg-dark;
+
+    .logo {
+      font-weight: 600;
+      font-size: 26px;
+      display: flex;
+
+      a {
+        color: white;
+      }
+
+      .btn_choose-catalog {
+        margin-left: 24px;
+        padding: 5px 10px;
+        display: inline-flex;
+        font-size: 18px;
+        border-radius: 7px;
+        border: 1px solid white;
+        cursor: pointer;
+
+        img {
+          margin-right: 10px;
+          height: 24px;
+        }
+      }
+    }
+
+    input {
+      padding: 7px 38px 7px 14px;
+      border-radius: 7px;
+      color: black;
+      background-color: white;
+    }
+
+    button {
+      margin: 0 0 0 -33px;
+      display: flex;
+      padding: 7px 7px;
+      border-radius: 7px;
+      background-color: $color_bg-dark;
+    }
+
+    div .icon {
+      margin-left: 24px;
+      width: 30px;
+      display: block;
+    }
+  }
+
+  .max-w {
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+  }
+
+  .f-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 869px) {
+  .tmpl1-wrap {
+    .above-top {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: block;
+      font-weight: 900;
+      font-size: 18px;
+      background-color: azure;
+
+      img {
+        display: none;
+      }
+    }
+
+    .top {
+      .logo {
+        a {
+          display: none;
+        }
+
+        .btn_choose-catalog {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 519px) {
+  .tmpl1-wrap {
+    .above-top {
+      img {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: inline;
+        margin-left: 24px;
+        width: 28px;
+      }
+    }
+
+    .top {
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+      .logo {
+        .btn_choose-catalog {
+          span {
+            display: none;
+          }
+
+          img {
+            margin-right: 0;
+          }
+        }
+      }
+
+      div .icon {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 319px) {
+  .tmpl1-wrap {
+    .above-top {
+      span {
+        width: min-content;
+      }
+    }
+
+    input {
+      max-width: 188px;
+    }
+  }
+}
