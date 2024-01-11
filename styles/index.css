@@ -105,7 +105,7 @@
   }
   .tmpl1-wrap .top {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   .tmpl1-wrap .top .logo .btn_choose-catalog span {
     display: none;
