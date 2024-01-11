@@ -24,6 +24,7 @@
 .tmpl1-wrap .top .logo .btn_choose-catalog {
   margin-left: 30px;
   padding: 5px 15px;
+  min-width: 52px;
   display: inline-flex;
   font-size: 18px;
   font-weight: 600;
@@ -128,6 +129,9 @@
   }
   .tmpl1-wrap .top .logo .btn_choose-catalog img {
     margin-right: 0;
+  }
+  .tmpl1-wrap .top .min-w-100 {
+    min-width: 100px;
   }
   .tmpl1-wrap .top input {
     margin-left: 15px;
