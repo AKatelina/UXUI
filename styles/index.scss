@@ -1,10 +1,8 @@
 @import 'settings';
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .tmpl1-wrap {
   font-family: Roboto, sans-serif;
-  font-family: 'Ysabeau SC', sans-serif;
 
   .above-top {
     display: none;
@@ -18,12 +16,13 @@
     background-color: $color_bg-dark;
 
     .logo {
-      font-weight: 600;
-      font-size: 26px;
+      font-size: 30px;
       display: flex;
 
       a {
+        line-height: 0.9;
         color: white;
+        font-family: 'Oswald', sans-serif;
       }
 
       .btn_choose-catalog {
@@ -31,7 +30,7 @@
         padding: 5px 10px;
         display: inline-flex;
         font-size: 18px;
-        border-radius: 7px;
+        border-radius: 1px;
         border: 1px solid white;
         cursor: pointer;
 
@@ -39,12 +38,17 @@
           margin-right: 10px;
           height: 24px;
         }
+
+        span {
+          line-height: 1.6;
+          font-size: 15px;
+        }
       }
     }
 
     input {
-      padding: 7px 38px 7px 14px;
-      border-radius: 7px;
+      padding: 10px 38px 10px 14px;
+      border-radius: 1px;
       color: black;
       background-color: white;
     }
@@ -53,13 +57,13 @@
       margin: 0 0 0 -33px;
       display: flex;
       padding: 7px 7px;
-      border-radius: 7px;
+      border-radius: 3px;
       background-color: $color_bg-dark;
     }
 
     div .icon {
       margin-left: 24px;
-      width: 30px;
+      width: 24px;
       display: block;
     }
   }
@@ -84,12 +88,15 @@
 @media (max-width: 869px) {
   .tmpl1-wrap {
     .above-top {
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding-top: 15px;
+      padding-bottom: 0;
       display: block;
-      font-weight: 900;
-      font-size: 18px;
-      background-color: azure;
+      line-height: 0.9;
+      font-weight: 500;
+      font-size: 22px;
+      color: white;
+      background-color: black;
+      font-family: 'Oswald', sans-serif;
 
       img {
         display: none;
@@ -110,15 +117,15 @@
   }
 }
 
-@media (max-width: 519px) {
+@media (max-width: 570px) {
   .tmpl1-wrap {
     .above-top {
+      padding-top: 15px;
+      padding-bottom: 10px;
       img {
-        padding-top: 15px;
-        padding-bottom: 15px;
         display: inline;
         margin-left: 24px;
-        width: 28px;
+        width: 24px;
       }
     }
 
@@ -145,14 +152,8 @@
   }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 335px) {
   .tmpl1-wrap {
-    .above-top {
-      span {
-        width: min-content;
-      }
-    }
-
     input {
       max-width: 188px;
     }
