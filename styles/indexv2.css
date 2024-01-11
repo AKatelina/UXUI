@@ -88,11 +88,11 @@
 }
 .tmpl1-wrap .content .banner {
   margin-bottom: 15px;
+  width: 100%;
+  min-height: 200px;
   border-radius: 10px;
   overflow: hidden;
-}
-.tmpl1-wrap .content .banner img {
-  width: 100%;
+  background-color: rgb(47, 97, 184);
 }
 .tmpl1-wrap .content .banner:last-child {
   margin-bottom: 0;
