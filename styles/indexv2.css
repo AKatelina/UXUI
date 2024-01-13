@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 .tmpl1-wrap {
   min-height: 100vh;
@@ -90,12 +91,27 @@
   height: 100%;
   width: 100%;
 }
-.tmpl1-wrap .categories {
-  padding: 10px 15px;
+.tmpl1-wrap .categories-bg .white {
   height: 100%;
+  width: 25%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+.tmpl1-wrap .categories {
+  position: absolute;
+  top: 0;
+  padding: 10px 15px;
+  height: calc(100% - 73px);
   width: 320px;
   background-color: white;
   overflow-y: scroll;
+  z-index: 500;
+  /* W3C standard сейчас только для Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: gray rgb(242, 242, 242);
+  /* для Chrome/Edge/Safari */
 }
 .tmpl1-wrap .categories .item {
   margin: 10px 0;
@@ -105,6 +121,18 @@
 }
 .tmpl1-wrap .categories .item:hover {
   background-color: rgb(242, 242, 242);
+}
+.tmpl1-wrap .categories::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+.tmpl1-wrap .categories::-webkit-scrollbar-track {
+  background: rgb(242, 242, 242);
+}
+.tmpl1-wrap .categories::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 2px;
+  border: 3px solid rgb(242, 242, 242);
 }
 .tmpl1-wrap .content {
   margin-bottom: 15px;
@@ -186,6 +214,10 @@
   }
   .tmpl1-wrap .categories-bg {
     top: 68px;
+  }
+  .tmpl1-wrap .categories-bg .white {
+    width: 100%;
+    height: 100%;
   }
   .tmpl1-wrap .categories {
     width: 100%;

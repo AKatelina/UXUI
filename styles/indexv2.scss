@@ -103,17 +103,26 @@
     left: 0;
     height: 100%;
     width: 100%;
+
+    .white {
+      height: 100%;
+      width: 25%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: white;
+    }
   }
 
   .categories {
+    position: absolute;
+    top: 0;
     padding: 10px 15px;
-    height: 100%;
+    height: calc(100% - 73px);
     width: 320px;
-    // position: fixed;
-    // left: 0;
-    // top: 74px;
     background-color: white;
     overflow-y: scroll;
+    z-index: 500;
 
     .item {
       margin: 10px 0;
@@ -124,6 +133,26 @@
 
     .item:hover {
       background-color: rgb(242, 242, 242);
+    }
+
+    /* W3C standard сейчас только для Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: gray rgb(242, 242, 242);
+
+    /* для Chrome/Edge/Safari */
+    &::-webkit-scrollbar {
+      height: 12px;
+      width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgb(242, 242, 242);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 2px;
+      border: 3px solid rgb(242, 242, 242);
     }
   }
 
@@ -227,6 +256,11 @@
 
     .categories-bg {
       top: 68px;
+
+      .white {
+        width: 100%;
+        height: 100%;
+      }
     }
 
     .categories {
