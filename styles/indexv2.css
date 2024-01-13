@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 .tmpl1-wrap {
   min-height: 100vh;
+  position: relative;
   font-family: Roboto, sans-serif;
 }
 .tmpl1-wrap .top {
@@ -81,6 +82,30 @@
 .tmpl1-wrap .bottom-nav {
   display: none;
 }
+.tmpl1-wrap .categories-bg {
+  background-color: rgba(102, 109, 107, 0.533);
+  position: fixed;
+  top: 73px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.tmpl1-wrap .categories {
+  padding: 10px 15px;
+  height: 100%;
+  width: 320px;
+  background-color: white;
+  overflow-y: scroll;
+}
+.tmpl1-wrap .categories .item {
+  margin: 10px 0;
+  padding: 7px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.tmpl1-wrap .categories .item:hover {
+  background-color: rgb(242, 242, 242);
+}
 .tmpl1-wrap .content {
   margin-bottom: 15px;
   padding-top: 83px;
@@ -146,6 +171,7 @@
     bottom: 0;
     left: 0;
     color: black;
+    z-index: 1000;
   }
   .tmpl1-wrap .bottom-nav .nav {
     width: 100%;
@@ -157,5 +183,12 @@
     padding: 10px 10px 15px 10px;
     height: 54px;
     cursor: pointer;
+  }
+  .tmpl1-wrap .categories-bg {
+    top: 68px;
+  }
+  .tmpl1-wrap .categories {
+    width: 100%;
+    height: calc(100% - 122px);
   }
 }/*# sourceMappingURL=indexv2.css.map */

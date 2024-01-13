@@ -3,6 +3,7 @@
 
 .tmpl1-wrap {
   min-height: 100vh;
+  position: relative;
   font-family: Roboto, sans-serif;
 
   .top {
@@ -95,6 +96,37 @@
     display: none;
   }
 
+  .categories-bg {
+    background-color: rgba(102, 109, 107, 0.533);
+    position: fixed;
+    top: 73px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .categories {
+    padding: 10px 15px;
+    height: 100%;
+    width: 320px;
+    // position: fixed;
+    // left: 0;
+    // top: 74px;
+    background-color: white;
+    overflow-y: scroll;
+
+    .item {
+      margin: 10px 0;
+      padding: 7px 10px;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    .item:hover {
+      background-color: rgb(242, 242, 242);
+    }
+  }
+
   .content {
     margin-bottom: 15px;
     padding-top: 83px;
@@ -154,6 +186,7 @@
   .tmpl1-wrap {
     .top {
       padding-bottom: 10px;
+
       .btn_choose-catalog,
       .icon {
         display: none;
@@ -176,6 +209,7 @@
       bottom: 0;
       left: 0;
       color: black;
+      z-index: 1000;
 
       .nav {
         width: 100%;
@@ -189,6 +223,15 @@
         height: 54px;
         cursor: pointer;
       }
+    }
+
+    .categories-bg {
+      top: 68px;
+    }
+
+    .categories {
+      width: 100%;
+      height: calc(100% - 122px);
     }
   }
 }
