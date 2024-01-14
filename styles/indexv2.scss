@@ -161,7 +161,7 @@
 
     /* W3C standard сейчас только для Firefox */
     scrollbar-width: thin;
-    scrollbar-color: gray rgb(242, 242, 242);
+    scrollbar-color: rgb(242, 242, 242) white;
 
     /* для Chrome/Edge/Safari */
     &::-webkit-scrollbar {
@@ -174,9 +174,9 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: gray;
+      background-color: rgb(242, 242, 242);
       border-radius: 2px;
-      border: 3px solid rgb(242, 242, 242);
+      border: 3px solid white;
     }
   }
 

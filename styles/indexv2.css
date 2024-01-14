@@ -112,7 +112,7 @@
   z-index: 500;
   /* W3C standard сейчас только для Firefox */
   scrollbar-width: thin;
-  scrollbar-color: gray rgb(242, 242, 242);
+  scrollbar-color: rgb(242, 242, 242) white;
   /* для Chrome/Edge/Safari */
 }
 .tmpl1-wrap .categories .item {
@@ -152,9 +152,9 @@
   background: rgb(242, 242, 242);
 }
 .tmpl1-wrap .categories::-webkit-scrollbar-thumb {
-  background-color: gray;
+  background-color: rgb(242, 242, 242);
   border-radius: 2px;
-  border: 3px solid rgb(242, 242, 242);
+  border: 3px solid white;
 }
 .tmpl1-wrap .content {
   margin-bottom: 15px;
