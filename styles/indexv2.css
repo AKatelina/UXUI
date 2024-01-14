@@ -149,7 +149,7 @@
   width: 12px;
 }
 .tmpl1-wrap .categories::-webkit-scrollbar-track {
-  background: rgb(242, 242, 242);
+  background: white;
 }
 .tmpl1-wrap .categories::-webkit-scrollbar-thumb {
   background-color: rgb(242, 242, 242);
