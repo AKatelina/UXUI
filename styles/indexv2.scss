@@ -128,15 +128,30 @@
 
     .item {
       margin: 10px 0;
-      padding: 7px 10px;
+      padding: 7px 25px 7px 10px;
       display: flex;
+      position: relative;
       align-items: center;
       border-radius: 7px;
       cursor: pointer;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 
       img {
         margin-right: 12px;
       }
+    }
+
+    .item:after {
+      content: "";
+      font-weight: 900;
+      position: absolute;
+      right: 10px;
+      border-color: #242424;
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid;
+      border-right: 2px solid;
+      transform: rotate(45deg);
     }
 
     .item:hover {
@@ -275,6 +290,7 @@
     .categories {
       width: 100%;
       height: calc(100% - 122px);
+      left: 0;
     }
   }
 }
