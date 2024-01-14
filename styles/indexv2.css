@@ -118,8 +118,13 @@
 .tmpl1-wrap .categories .item {
   margin: 10px 0;
   padding: 7px 10px;
+  display: flex;
+  align-items: center;
   border-radius: 7px;
   cursor: pointer;
+}
+.tmpl1-wrap .categories .item img {
+  margin-right: 12px;
 }
 .tmpl1-wrap .categories .item:hover {
   background-color: rgb(242, 242, 242);

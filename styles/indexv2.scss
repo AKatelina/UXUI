@@ -129,8 +129,14 @@
     .item {
       margin: 10px 0;
       padding: 7px 10px;
+      display: flex;
+      align-items: center;
       border-radius: 7px;
       cursor: pointer;
+
+      img {
+        margin-right: 12px;
+      }
     }
 
     .item:hover {
